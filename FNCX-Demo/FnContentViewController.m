@@ -87,7 +87,6 @@ static CGFloat lineChartInsetY = 10;
 //--------------------------------------------------------------------------------------------
 
 -(void)createCircleChart {
-
     
     self.circleChart = [[PNCircleChart alloc]
                         initWithFrame:CGRectMake(lineChartInsetX, labelHeight+lineChartInsetY, SCREEN_WIDTH-lineChartInsetX*2, (SCREEN_HEIGHT-STATUS_BAR_HEIGHT-NAVIGATION_BAR_HEIGHT-TAB_BAR_HEIGHT)/2-labelHeight-lineChartInsetY*2)
